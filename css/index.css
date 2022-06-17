@@ -1,0 +1,55 @@
+/* 
+
+Cores que irei usar
+
+    #17181f (preto)
+    #6c72cb (lilaz)
+    #cb69c1 (rosa)
+    #eeedf0 (branco)
+
+*/
+:root {
+
+    --cor: linear-gradient(90deg, #6c72cb, #cb69c1, 1);
+
+}
+
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: #eeedf0;
+    font-family: sans-serif;
+}
+
+/* Estilo da NAV BAR */
+
+.menu_principal {
+    background-image: linear-gradient(90deg,#6c72cb, #cb69c150);
+}
+
+.menu_principal_container ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px; 
+    
+}
+
+.menu_principal_container ul li a {
+    padding: 8px;
+    transition: 1s;
+    
+}
+.menu_principal_container ul li a:hover {
+    background-image: linear-gradient(90deg,#6c72cb, #cb69c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: solid 1px var(--cor);
+    border-image-source: linear-gradient(90deg,#6c72cb, #cb69c1, 1);
+    border-radius: 16px 4px;
+
+}
