@@ -84,11 +84,11 @@ body {
     display: grid;
     gap: 10px;
     grid-template-columns: 19.5% 19.5% 19.5% 19.5% 19.5%;
-    grid-template-rows: ;
     grid-template-areas: 
     "header header header header header"
     "linha1e linha1e linha1e linha1d linha1d"
-    "linha2e linha2e linha2d linha2d linha2d";
+    "linha2e linha2e linha2d linha2d linha2d"
+    "footer footer footer footer footer";
 }
 
 .sobre_este_projeto_div h1 {
@@ -130,10 +130,14 @@ body {
     grid-area: linha1d;
 }
 
+.sobre_este_projeto {
+    grid-area: linha2e;
+}
+
 .sobre_este_projeto_card_finais {
-   grid-area: linha2e;
+   grid-area: linha2d;
 }
 
 .sobre_este_projeto_card_meu_card {
-    grid-area: linha2d;
+    grid-area: footer;
 }
