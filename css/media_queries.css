@@ -43,4 +43,9 @@
     .style_h3 {
         font-size: 0.9em;
     }
+
+    .card {
+        box-shadow: 0 1px 0px #cb69c167;
+        margin-bottom: 20px;
+    }
 }
