@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px){
+    .menu_principal_container ul li {
+        height: 50px; 
+    } 
+
+    .menu_principal_container ul li a {
+        font-size: 0.7em;
+    }    
+
+    #apresentacao {
+        padding-left: 30px
+    }
+
+    #apresentacao h1 {
+        font-size: 1.2em;
+    }
+
+    .sobre_este_projeto_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre_este_projeto_div p{
+        font-size: 0.8em;
+    }
+
+    .consideracoes_finais_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consideracoes_finais_div p{
+        font-size: 0.8em;
+    }
+
+    .style_h1 {
+        font-size: 1em;
+    }
+    .style_h3 {
+        font-size: 0.9em;
+    }
+}
