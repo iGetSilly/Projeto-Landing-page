@@ -44,8 +44,7 @@ body {
     padding: 8px;
     transition: 1s;
     border: 2px solid var(--cor-branco);
-    border-radius: 20px 2px;
-    
+    border-radius: 20px 2px;  
 }
 .menu_principal_container ul li a:hover {
     border-radius: 2px 20px;
